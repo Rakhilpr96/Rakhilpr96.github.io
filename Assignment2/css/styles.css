@@ -1,6 +1,11 @@
+body {
+	background: #c0392b;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 #header-nav {
 	background-color: #0a0f0b;
-	opacity: 0.8;
+	opacity: 0.7;
 	border: 0;
 	border-radius: 0;
 	position: relative;
@@ -8,7 +13,7 @@
 
 #brand {
 	font-size: 36px;
-	color: #dfede3;
+	color: white;
 }
 .navbar-brand {
     margin-left: 30px !important;
